@@ -11,5 +11,9 @@
         "rake",
         "make"
     ],
-    "version": "0.3"
+    "version": "0.3",
+    "dependencies": {
+        "glob": "^7.1.7",
+        "minimatch": "^3.0.4"
+    }
 }
