@@ -1,15 +1,22 @@
 {
-    "name": "jake",
-    "author": "Francisco Tolmasky (http://tolmasky.com/) <francisco@280north.com>",
-    "contributors": [
-        "Tom Robinson (http://tlrobinson.net/) <tom@280north.com>"
-    ],
-    "description": "A build system for CommonJS, lifted from Rake",
-    "keywords": [
-        "build",
-        "jake",
-        "rake",
-        "make"
-    ],
-    "version": "0.3"
+  "name": "jake",
+  "version": "1.0.0",
+  "description": "Jake ====",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredwarnsater/jake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredwarnsater/jake/issues"
+  },
+  "homepage": "https://github.com/alfredwarnsater/jake#readme"
 }

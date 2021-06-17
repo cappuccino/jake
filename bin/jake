@@ -1,6 +1,5 @@
-#!/usr/bin/env narwhal
+#!/usr/bin/env node
 
-var JAKE = require("jake");
-var SYSTEM = require("system");
+const jake = require("../lib/jake");
 
-JAKE.application().run({ args : SYSTEM.args });
+JAKE.application().run({ args : process.argv });
