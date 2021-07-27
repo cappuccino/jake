@@ -1,17 +1,6 @@
 {
-    "name": "jake",
-    "author": "Francisco Tolmasky (http://tolmasky.com/) <francisco@280north.com>",
-    "contributors": [
-        "Tom Robinson (http://tlrobinson.net/) <tom@280north.com>"
-    ],
-    "description": "A build system for CommonJS, lifted from Rake",
-    "keywords": [
-        "build",
-        "jake",
-        "rake",
-        "make"
-    ],
-    "version": "0.3",
+    "name": "objj-jake",
+    "version": "1.0.0",
     "dependencies": {
         "glob": "^7.1.7",
         "minimatch": "^3.0.4"
