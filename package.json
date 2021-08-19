@@ -1,8 +1,16 @@
 {
-    "name": "objj-jake",
-    "version": "1.0.0",
+    "name": "@objj/jake",
+    "version": "1.1.1",
     "dependencies": {
         "glob": "^7.1.7",
-        "minimatch": "^3.0.4"
-    }
+        "minimatch": "^3.0.4",
+        "@objj/runtime": "latest"
+    },
+    "devDependencies": {
+        "@objj/jake": "file:."
+    },
+    "bin": {
+        "jake": "bin/jake"
+    },
+    "main": "lib/jake.js"
 }
